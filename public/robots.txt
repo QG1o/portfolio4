@@ -1,3 +1,10 @@
+# Robots.txt for QG1o Portfolio
+# https://qg1o2.netlify.app/
+
+User-agent: *
+Allow: /
+
+# Crawlers
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +17,30 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: LinkedInBot
 Allow: /
+
+# AI Crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap
+Sitemap: https://qg1o2.netlify.app/sitemap.xml
+
+# Host
+Host: https://qg1o2.netlify.app/
